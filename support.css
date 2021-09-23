@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>testing</title>
+        <link rel="stylesheet" href="support.css">
+        <style>
+            #foo{
+                color: red;
+                text-align: center;
+            }
+            #john{
+                color: Blue;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>WELCOME TO MY WEBSITE</h1>
+        <h3></h3>
+        <div id="div1">
+            Full_Name: <input placeholder="Enter your name" type="text" name="name">
+            <h3></h3>
+            PASSWORD: <input placeholder="password" type="password" name = "password"> 
+            <input name="sex" type="radio" value="Female" >Female
+            <input name="sex" type="radio" value="Male"> Male
+            <h3></h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SCHOOL</th>
+                        <th>POINT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BACK KHOA</td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <td>Y KHOA</td>
+                        <td>900</td>
+                    </tr>
+                    <tr>
+                        <td>KINH TE</td>
+                        <td>650</td>
+                    </tr>
+                </tbody>
+            </table> 
+            <input type="submit">
+        </div>
+        <h1 id="foo">SOMETHING ELSE</h1>
+        <h2 id="john">GOOD LUCK</h2>
+        <div> 
+        <div id = "container">
+            <div class="SCHOOL">1.thanh pho ho chi minh</div>
+            <div class="SCHOOL">2.back khoa</div>
+            <div class="SCHOOL">3.y thanh pho</div>
+            <div class="SCHOOL">4.Kinh te</div>
+            <div class="SCHOOL">5.Ngoai thuong</div>
+            <div class="SCHOOL">6.Cong nghe</div>
+            <div class="SCHOOL">7.Nong lam</div>
+            <div class="SCHOOL">8.Hoa sen</div>
+            <div class="SCHOOL">9.Van lang</div>
+            <div class="SCHOOL">10.Can tho</div>
+            <div class="SCHOOL">11.FPT</div>
+            <div class="SCHOOL">12.Kien truc</div>
+        </div>
+        <h3 color: red >TESTING GRID</h3>
+        <div id ="grid">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+    </body>
+</html>
